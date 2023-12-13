@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: 'lenorha';
+    src: url(fonts/Lenorha-nR6K4.otf);
+}
+
+@font-face {
+    font-family: 'A';
+    src: url(fonts/A-rAEx.ttf);
+}
+/* Add background image to the body */
+body {
+    background-image: url("https://media.istockphoto.com/photos/wood-background-picture-id184304272?k=6&m=184304272&s=170667a&w=0&h=9aRVuUH3CHVFGQCedzUKJaOGn6TkAY7xCyjixzpceNU="); /* Replace with the actual path to your image */
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Book Title Styles */
+.book-title {
+    font-family: 'lenorha';
+    line-height: 1.3;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000; /* Set text color to white for better visibility on the background */
+}
+
+/* Main Styles */
+.book-container {
+    font-family: 'A';
+    margin: auto;
+    background-image: url("https://th.bing.com/th/id/R.a3e4cde9029b71abbd60962885264816?rik=HBuXPokhi6m5Tw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mJpKSDcsk8M%2fT7GbxfuI9fI%2fAAAAAAAAArU%2fGeaX_SbKMpo%2fs1600%2fpaper-background.jpg&ehk=e2x6ZLL3wSHPCK4Sbgv72KjJBmZbZD78ot8TwnieOVQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 800px;
+
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+#imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#pageImage {
+    max-width: 100%;
+    max-height: 300px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#pageImageText {
+    color: #333; /* Set text color to a dark shade for better visibility on the background */
+}
+
+#textContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #333; /* Set text color to a dark shade for better visibility on the background */
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'lenorha';
+}
+
+button {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333; /* Set button text color to a dark shade for better visibility on the background */
+    border: none;
+    border-radius: 5px;
+    background-image: url("https://th.bing.com/th/id/R.a3e4cde9029b71abbd60962885264816?rik=HBuXPokhi6m5Tw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mJpKSDcsk8M%2fT7GbxfuI9fI%2fAAAAAAAAArU%2fGeaX_SbKMpo%2fs1600%2fpaper-background.jpg&ehk=e2x6ZLL3wSHPCK4Sbgv72KjJBmZbZD78ot8TwnieOVQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+button:hover {
+    background-color: #ddd; /* Change button background color on hover */
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 600px) {
+    #textContent {
+        flex-direction: column;
+    }
+
+    #imageContainer {
+        margin-bottom: 10px;
+    }
+    .book-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* Add these styles for video element */
+#pageVideo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+#pageVideo::-webkit-media-controls {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+#pageVideo::-webkit-media-controls-play-button {
+    color: white;
+}
+
+#pageVideo::-webkit-media-controls-volume-slider {
+    width: 50px;
+}
+
+#pageVideo::-webkit-media-controls-progress-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#pageVideo::-webkit-media-controls-current-time-display,
+#pageVideo::-webkit-media-controls-time-remaining-display {
+    color: white;
+}
+
+#pageVideo::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
