@@ -28,7 +28,7 @@ body {
 
 /* Main Styles */
 .book-container {
-    font-family: 'A';
+    font-family: Helvetica sans-serif;
     margin: auto;
     background-image: url("https://th.bing.com/th/id/R.a3e4cde9029b71abbd60962885264816?rik=HBuXPokhi6m5Tw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mJpKSDcsk8M%2fT7GbxfuI9fI%2fAAAAAAAAArU%2fGeaX_SbKMpo%2fs1600%2fpaper-background.jpg&ehk=e2x6ZLL3wSHPCK4Sbgv72KjJBmZbZD78ot8TwnieOVQ%3d&risl=&pid=ImgRaw&r=0");
     background-size: cover; /* Ensure the background image covers the entire viewport */
