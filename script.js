@@ -4,7 +4,7 @@ const totalPages = 4; // Replace with the actual total number of pages
 // Map page numbers to content types ('photo' or 'video')
 const contentTypeMap = {
     1: 'photo',
-    2: 'photo',
+    2: 'video',
     3: 'video',
     4: 'photo',
     5: 'photo',
