@@ -10,6 +10,12 @@ const contentTypeMap = {
     5: 'photo',
     6: 'photo',
     7: 'photo',
+    8: 'video',
+    9: 'video',
+    10: 'video',
+    11: 'video',
+    12: 'video',
+    13: 'video',
     // Add more entries as needed
 };
 
