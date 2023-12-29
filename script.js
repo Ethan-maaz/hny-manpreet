@@ -1,5 +1,5 @@
 let currentPage = 1;
-const totalPages = 13; // Replace with the actual total number of pages
+const totalPages = 14; // Replace with the actual total number of pages
 
 // Map page numbers to content types ('photo' or 'video')
 const contentTypeMap = {
@@ -14,8 +14,9 @@ const contentTypeMap = {
     9: 'video',
     10: 'video',
     11: 'video',
-    12: 'video',
+    12: 'photo',
     13: 'video',
+    14: 'photo'
     // Add more entries as needed
 };
 
